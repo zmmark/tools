@@ -1,0 +1,49 @@
+mac 开发相关
+显示mac的隐藏文件
+
+在Terminal中复制或输入以下命令(区分大小写)：
+defaults write com.apple.Finder AppleShowAllFiles YES
+然后敲回车
+然后重启Finder,方法是按住Option键，单击Dock上的Finder图标不放，大概2秒后将在Finder图标上出现一个菜单，
+
+
+简洁优雅的Mac OS X软件安装体验 - homebrew-cask
+https://ksmx.me/homebrew-cask-cli-workflow-to-install-mac-applications/
+
+
+mac的一些功能
+http://www.jianshu.com/p/00ea7b218020
+
+
+
+mac ps 破解
+http://www.macappstore.net/photoshop-for-mac/
+
+
+sublime
+http://www.cnblogs.com/bananaplan/p/Sublime-Text-3-Powerful.html
+
+
+mac 的Apache配置测试
+apachectl configtest
+
+mac redis
+http://www.jianshu.com/p/af33284aa57a
+
+mac brew安装redis
+http://blog.csdn.net/pingpangbing0902/article/details/47104545
+
+
+
+# 用的是 mac osx，编辑 phpstorm 的启动配置文件，其他平台根据情况选择:
+sudo vim /Applications/PhpStorm.app/Contents/bin/phpstorm.vmoptions
+
+# 修改参数，根据具体需要修改即可，一般修改  -Xmx(即最大可占内存)即可
+-Xms512m
+-Xmx2048m
+-XX:MaxPermSize=350m
+-XX:ReservedCodeCacheSize=240m
+-XX:+UseCompressedOops
+
+
+
